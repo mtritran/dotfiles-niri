@@ -1,0 +1,11 @@
+// ────────────── Output Configuration ──────────────
+// Xem thêm tại: https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
+
+output "eDP-1" {
+    mode "1920x1080@144.001" 
+    scale 1.175
+    position x=0 y=0
+    
+    // Xoay màn hình (normal, 90, 180, 270, flipped-90, v.v.)
+    // transform "normal"
+}
