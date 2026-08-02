@@ -34,9 +34,6 @@ binds {
     XF86MonBrightnessUp                 allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call brightness increase"; }
     XF86MonBrightnessDown               allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call brightness decrease"; }
 
-    // ─── Screen Color Picker ───
-    Mod+Shift+G                         hotkey-overlay-title="Screen Color: Gammastep Picker" { spawn "/home/tranmt/.local/bin/gammastep-picker"; }
-
     // ─── Window Movement and Focus ───
     Mod+Q                               { close-window; }
 
