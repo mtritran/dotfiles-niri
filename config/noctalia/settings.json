@@ -234,6 +234,33 @@
                     "id": "plugin:mini-docker"
                 },
                 {
+                    "defaultSettings": {
+                        "animate_window": true,
+                        "animation_cards_duration": 750,
+                        "animation_window_duration": 500,
+                        "background_color": null,
+                        "background_opacity": null,
+                        "card_height": 350,
+                        "card_spacing": 6,
+                        "card_strip_width": 90,
+                        "cards_shown": 11,
+                        "center_width_ratio": 0.33,
+                        "hide_help": false,
+                        "hide_top_bar": false,
+                        "image_filter": [
+                            "png",
+                            "jpg",
+                            "jpeg"
+                        ],
+                        "live_preview": false,
+                        "selected_filter": "images",
+                        "shear_factor": -0.25,
+                        "top_bar_height": 35,
+                        "video_filter": [
+                            "mp4",
+                            "avi"
+                        ]
+                    },
                     "id": "plugin:wallcards"
                 }
             ]
@@ -657,9 +684,9 @@
         "fontFixed": "monospace",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 0.93,
-        "panelsAttachedToBar": true,
+        "panelsAttachedToBar": false,
         "scrollbarAlwaysVisible": true,
-        "settingsPanelMode": "attached",
+        "settingsPanelMode": "window",
         "settingsPanelSideBarCardStyle": false,
         "tooltipsEnabled": true,
         "translucentWidgets": false
